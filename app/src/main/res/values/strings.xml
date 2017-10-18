@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Metodos Numericos</string>
+    <string name="punto_fijo_fx">Ingrse una funcion g(x)</string>
+    <string name="error_no_valido">Campo no valido</string>
+    <string name="error_vacio">Campo no puede estar vacio</string>
+    <string name="error_msg">Error</string>
+    <string name="pf_gx">Ingrese una funcion g(x)</string>
+    <string name="pf_x0">Ingrese un valor de x0</string>
+    <string name="error">Error permitido</string>
+    <string name="iteraciones">Iteracion maxima</string>
+    <string name="pf_eval">Evaluar</string>
+    <string name="valor_x0">Valor para x0</string>
+    <string name="valor_x1">Valor para x1</string>
+    <string name="fun_fx">Funcion fx</string>
+    <string name="fun_fdx">Funcion fdx</string>
+    <string name="fun_fddx">Funcion fddx</string>
+    <string name="valor_x2">Valor para x2</string>
+</resources>

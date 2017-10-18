@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.yeik.app.metodosnumericos">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".puntofijo.PuntoFijoActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".biseccion.BiseccionActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".falsaposicion.FalsaActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".newton.NewtonActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".euler.EulerActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".richmond.RichmondActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".secante.SecanteActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".muller.MullerActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

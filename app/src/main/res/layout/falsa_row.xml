@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/fp_iter_text"
+        android:text="1.    "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/fp_xr_text"
+        android:text="xm: 102020220202.2232323"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/fp_iter_text"
+        android:layout_toEndOf="@+id/fp_iter_text"/>
+
+    <TextView
+        android:id="@+id/fp_x0_text"
+        android:text="x0: 102020220202.2232323"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fp_iter_text"
+        android:layout_toRightOf="@+id/fp_iter_text"
+        android:layout_toEndOf="@+id/fp_iter_text"/>
+
+    <TextView
+        android:id="@+id/fp_x1_text"
+        android:text="x1: 102020220202.2232323"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fp_x0_text"
+        android:layout_alignLeft="@+id/fp_x0_text"
+        android:layout_alignStart="@+id/fp_x0_text"/>
+
+    <TextView
+        android:id="@+id/fp_error_text"
+        android:text="Error: 293742342342347234"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fp_x1_text"
+        android:layout_alignLeft="@+id/fp_x1_text"
+        android:layout_alignStart="@+id/fp_x1_text"/>
+
+</RelativeLayout>
